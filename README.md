@@ -81,7 +81,7 @@ My final model consisted of the following layers:
 | Convolution 3x3	    | 1x1 stride, valid padding, outputs 14x14x42.  |
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 7x7x42 			     	|
-| Fully connected x3 Layers		| i calculated the width depending on the input with  .  	|
+| Fully connected x3 Layers		| i calculated the width depending on the input width.  	|
 | Softmax				|      									|
 |						|												|
 |						|												|
