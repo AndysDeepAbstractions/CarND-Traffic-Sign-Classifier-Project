@@ -37,8 +37,8 @@ I just plottet the images, ids and sign names. I know this signs very well so i 
 
 ###Design and Test a Model Architecture
 
-- I added a HLS colorspace to the data. 
-- Did max-scaling
+- I added a HLS colorspace to the data for testing reason, (removed later on to save computation time)
+- Did max-scaling on input data
 - I used 3 Layers conv2d_maxpool and 3 fully connected Layers
 - The model did learn very fast but stuck early
 
@@ -144,7 +144,7 @@ Here are the results of the prediction:
 | speedlimit 30       	| speedlimit 50    						     	|
 
 
-The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 60%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 60%. This because of a small testing size and perhaps because of the difficult, handpicked signs.
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
